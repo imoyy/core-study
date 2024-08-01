@@ -1,5 +1,3 @@
-import dayjs from 'dayjs'
-
 import {
   BadRequestException,
   Get,
@@ -7,6 +5,8 @@ import {
   Post,
   UseInterceptors,
 } from '@nestjs/common'
+
+import dayjs from 'dayjs'
 
 import { ApiController } from '~/common/decorators/api-controller.decorator'
 import { Auth } from '~/common/decorators/auth.decorator'
